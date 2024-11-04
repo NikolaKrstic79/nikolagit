@@ -1,0 +1,45 @@
+.bg{
+    background-image: url(./Images/textures/264965-P4TIJM-916.jpg);
+}
+
+/* BOI */
+.yellowbg{
+    background-color: #f19c05;
+}
+.blond{
+    background-color: #fbebcc;
+}
+
+.bgwbri{
+    filter:opacity(20%);
+}
+
+
+/* ERROR */
+.error {
+    background-color: red;
+    color: white;
+  }
+
+/* NAVBAR */
+
+.navbg{
+    background-color: #341208;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+    display: table;
+    table-layout: fixed;
+  }
+  .nav-item {
+    display: table-cell;
+    text-align: center;
+  }
+  .nav-link {
+    color: white;
+    transition: color 0.3s;
+  }
+  .nav-link:hover {
+    color: #ffa600;
+  }

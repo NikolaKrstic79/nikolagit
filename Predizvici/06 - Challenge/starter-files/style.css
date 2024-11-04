@@ -1,0 +1,35 @@
+
+.bg-nav{
+    background-color: #333333;
+}
+.button-head{
+border: 1px solid #337ab7;
+border-radius: 6px;
+width: 120px;
+height: 40px;
+background-color: #337ab7;
+}
+.third-banner{
+    background-image: url(./images/lights.jpg);
+    height: 25vh;
+    background-size: cover;
+}
+.five-banner{
+    background-image: url(./images/media.jpg);
+    height: 20vh;
+    background-size: cover;
+    background-color: rgb(130, 127, 127);
+    background-blend-mode:difference;
+}
+    iframe{
+        width: 100%;
+        height: 29em;
+    }
+    #carouselus{
+        background-color: #333333;
+    }
+      #carouselus .carousel-inner .carousel-item {
+        height: 6em;
+      }
+
+/*  <i class="fa-solid fa-play"></i> */

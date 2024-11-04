@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Delivi so 3</title>
+</head>
+<body>
+    <h1>bla bla</h1>
+    <ul id="numberList"></ul>
+ <script>
+
+for (let i = 10; i <=100; i ++) {
+    if (i % 2 === 0 && i % 3 === 0) {
+        let listItem = document.createElement("li");
+        listItem.textContent = i;
+        document.getElementById("numberList").appendChild(listItem);
+    }
+}
+
+ </script>
+</body>
+</html>

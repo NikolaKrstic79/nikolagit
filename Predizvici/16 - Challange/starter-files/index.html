@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" href="style.css"> <!-- Add your custom styles here -->
+    <title>Bootstrap Quiz App</title>
+</head>
+<body class="bg-light">
+
+    <div id="loadingScreen">
+        <p id="loadingText" class="animate__animated animate__bounce">Loading...</p>
+    </div>
+
+    <div class="container mt-5">
+        <div class="card text-center p-4">
+            <h1 class="mb-4">Welcome to Sport's Trivia !</h1>
+            <div id="title-desc" class="h5 mb-4">Click on the button to beggin.</div>
+            <hr class="bg-success">
+            <button id="startbtn" class="btn btn-success btn-lg btn-block mt-3">Start</button>
+            <div id="tracker" class="mt-3" style="display: none;">Question <span id="questionNumber">0</span>/<span id="totalQuestions">0</span></div>
+            <div id="result-container" class="mt-3" style="display: none;">
+                <h2>Your Result</h2>
+                <div id="result"></div>
+            </div>
+            <div id="question-renderer" class="mt-3" style="display: none;">
+                <div id="welcome" class="h3 mb-4">Welcome!</div>
+                <div id="title-desc" class="h5 mb-4">Click on the button to start over.</div>
+                <div id="question-container" class="card-body mt-4"></div>
+                <div id="answer-container" class="mt-4"></div>
+                <div id="question-tracker" class="mt-4"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

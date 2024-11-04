@@ -1,0 +1,5 @@
+Admin panel works if in database
+user has in the column if_admin the number 1
+he will see the admin panel button
+if he has no number or any other number
+he won't see it

@@ -1,0 +1,42 @@
+.logosize{
+    width: 30%;
+}
+.logosize2{
+    width: 5%;
+}
+.backsize{
+    width: 80%;
+}
+
+.navcolor{
+    background-color: yellow;
+}
+
+.banner {
+    color: #fff; /* White text color */
+    text-align: center;
+    position: relative; /* Relative position for absolute positioning */
+  }
+  .banner img {
+    width: 80%;
+    height: auto;
+  }
+  .banner .banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .card-img-top {
+    max-height: 200px; /* Adjust as needed */
+    object-fit: cover;
+  }
+  .footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .footer a {
+    color: #007bff;
+    text-decoration: none;
+  }

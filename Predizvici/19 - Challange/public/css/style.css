@@ -1,0 +1,79 @@
+body {
+  background-color: azure;
+}
+
+.navbar {
+  font-weight: bold;
+}
+.navbar .container .navbar-brand {
+  color: white;
+}
+.navbar .container #navbarNav .active {
+  color: white;
+  opacity: 1 !important;
+}
+.navbar .container #navbarNav .nav-link {
+  color: white;
+  opacity: 0.7;
+}
+
+.index-bg, .about-bg, .post-bg, .contact-bg {
+  height: 45vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.index-bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/home-bg.jpg");
+}
+
+.about-bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/about-bg.jpg");
+}
+
+.post-bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/blog-image.jpg");
+}
+
+.contact-bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/contact-bg.jpg");
+}
+
+.global-bg div h1, .global-bg div h3, .global-bg div p {
+  color: white;
+  font-weight: bold;
+}
+.global-bg div h3, .global-bg div p {
+  opacity: 0.7;
+}
+
+.post p {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.content h2 {
+  font-weight: bold;
+}
+.content .btn {
+  border: none;
+  background-color: #17a2b8;
+  border-radius: 0;
+}
+.content .mb-3 {
+  border: none;
+  opacity: 0.7;
+}
+.content .mb-3 input, .content .mb-3 textarea {
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid gray;
+  background: none;
+}
+
+.index-icons {
+  font-size: 3em;
+  gap: 3em;
+  justify-content: center;
+}/*# sourceMappingURL=style.css.map */

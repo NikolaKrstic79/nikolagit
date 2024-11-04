@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: relative;
+}
+header img {
+  width: 100%;
+  height: auto;
+}
+header h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+header h2 {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+nav {
+  background-color: #333;
+  padding: 10px;
+}
+nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+  margin: 20px 0;
+}
+section h2 {
+  color: #333;
+}
+section p {
+  color: #666;
+}
+section.product-cards {
+  display: flex;
+  justify-content: space-between;
+}
+section.product-cards .product-card {
+  width: 30%;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 0 1%;
+}
+section.product-cards .product-card h3 {
+  color: #333;
+}
+section.product-cards .product-card img {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}/*# sourceMappingURL=style2.css.map */

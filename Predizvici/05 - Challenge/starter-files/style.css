@@ -1,0 +1,19 @@
+.back-banner{
+    background-image: url(./images/home.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-color: rgb(130, 127, 127);
+    background-blend-mode: soft-light;
+}
+span{
+    color: red;
+}
+.card-body{
+    background-color: #4900d5;
+}
+.bg-button{
+    background-color: #4900d5;
+}
+.bg-brown{
+    background-color: #393939;
+}

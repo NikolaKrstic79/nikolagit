@@ -1,0 +1,221 @@
+body {
+  margin: 0px;
+}
+* {
+  box-sizing: border-box;
+}
+p {
+  color: white;
+  padding: 6%;
+}
+h5 {
+  color: white;
+  font-size: 35px;
+  margin: 0 auto;
+  padding: 2%;
+}
+h1 {
+  color: white;
+  text-align: center;
+  padding: 2%;
+  font-size: 25px;
+}
+.container::after,
+.container-2::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.clear-both {
+  clear: both;
+}
+/* HEAD */
+.container {
+  border: 1px;
+  background-color: #638caa;
+  width: 100%;
+  height: 50%;
+}
+.imgnav {
+  margin: 0 auto;
+  width: 45%;
+  margin-left: 25%;
+}
+.applenav {
+  margin-top: -26%;
+  margin-left: 10%;
+  width: 3%;
+  float: left;
+}
+/* Listata Navbar */
+li {
+  display: inline-block;
+  list-style: none;
+  margin: 0.7%;
+}
+ul {
+  margin: 0 auto;
+}
+li a {
+  color: white;
+}
+li{
+  float:right
+}
+/* float na listite */
+ul::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Second */
+.macbookairborder {
+  border: 1px;
+  background-color: #dbdbdb;
+  margin: 0 auto;
+  width: 25%;
+  height: 200px;
+  float: left;
+  text-align: center;
+  font-size: 100px;
+}
+.ipadborder {
+  border: 1px;
+  background-color: #bcb9aa;
+  margin: 0 auto;
+  width: 25%;
+  height: 200px;
+  float: left;
+  text-align: center;
+  font-size: 100px;
+}
+.iphonexborder {
+  border: 1px;
+  background-color: #9ce0d1;
+  margin: 0 auto;
+  width: 25%;
+  height: 200px;
+  float: left;
+  text-align: center;
+  font-size: 100px;
+}
+.aboutborder {
+  border: 1px;
+  background-color: #9aa7b8;
+  margin: 0 auto;
+  width: 25%;
+  height: 200px;
+  float: left;
+  text-align: center;
+  font-size: 100px;
+}
+h4 {
+  font-size: 50px;
+  margin-top: -2%;
+}
+/* Third Row */
+.tablet1 {
+  border: 1px;
+  background-color: #638caa;
+  width: 50%;
+  height: 330px;
+  text-align: center;
+  float: left;
+}
+.tablettext {
+  border: 1px;
+  background-color: #9aa7b8;
+  width: 50%;
+  height: 330px;
+  text-align: center;
+  float: right;
+}
+/* four row */
+.iphone1 {
+  border: 1px;
+  background-color: #bcb9aa;
+  width: 50%;
+  height: 330px;
+  text-align: center;
+  float: left;
+}
+.iphonetext {
+  border: 1px;
+  background-color: #b7ced6;
+  width: 50%;
+  height: 330px;
+  text-align: center;
+  float: right;
+}
+/* four row */
+.pc1 {
+  border: 1px;
+  background-color: #b7ced6;
+  width: 50%;
+  height: 330px;
+  text-align: center;
+  float: left;
+}
+.pctext {
+  border: 1px;
+  background-color: #f09e84;
+  width: 50%;
+  height: 330px;
+  text-align: center;
+  float: right;
+}
+/* Five Row */
+.teambox {
+  border: 1px;
+  background-color: #9aa7b8;
+  width: 33.3%;
+  height: 200px;
+  text-align: center;
+  float: left;
+}
+.sallarybox {
+  border: 1px;
+  background-color: #bcb9aa;
+  width: 33.3%;
+  height: 200px;
+  text-align: center;
+  float: left;
+}
+.earningsbox {
+  border: 1px;
+  background-color: #9ce0d1;
+  width: 33.3%;
+  height: 200px;
+  text-align: center;
+  float: left;
+}
+/* Six Row */
+.sixrow {
+  border: 1px;
+  background-color: #638caa;
+  width: 100%;
+  height: 200px;
+}
+.media {
+  float: left;
+  margin: 70px 0px 0px 200px;
+  font-size: 30px;
+  color: white;
+}
+/* END ROW */
+.endrow {
+  border: 1px;
+  background-color: #514354;
+  width: 100%;
+  height: 70px;
+  margin-top: -1.5%;
+}
+/* Hover */
+.hoverce:hover {
+  color: #bcb9aa;
+  text-decoration: underline red;
+}
+.hoverce2:hover {
+  color: white;
+  text-decoration: none;
+}
